@@ -1,5 +1,5 @@
-name: crypto_mystery_app
-description: A new Flutter project.
+name: crypto_mystery
+description: Агрегатор криптобирж и криптообменников. Виртуальный мультикошелек.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -12,12 +12,46 @@ dependencies:
     sdk: flutter
 #Visuals
   cupertino_icons: ^1.0.5
+#Utils
+  #Laucnh url
+  url_launcher: ^6.1.12
+#Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+flutter_intl:
+  enabled: true
+  localizely:
+    project_id: a0847bbc-64d2-4a34-b51d-d8844a48b826
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   #Linter
   flutter_lints: ^2.0.2
+#Launcher
+  flutter_native_splash: ^2.3.2
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher/crypto_mystery_logo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/launcher/crypto_mystery_logo.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+
+flutter_native_splash:
+  color: "#01091d"
+  image: assets/launcher/crypto_mystery_logo.png
+  android: true
+  ios: true
+  web: true
 
 flutter:
+  generate: true
   uses-material-design: true
+  assets:
+    - assets/launcher/

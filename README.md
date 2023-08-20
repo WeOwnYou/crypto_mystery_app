@@ -1,6 +1,6 @@
 # crypto_mystery_app
 
-A new Flutter project.
+Агрегатор криптобирж и криптообменников. Виртуальный мультикошелек.
 
 ## Getting Started
 

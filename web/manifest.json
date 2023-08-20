@@ -1,11 +1,11 @@
 {
-    "name": "crypto_mystery_app",
-    "short_name": "crypto_mystery_app",
+    "name": "Crypto Mystery",
+    "short_name": "Crypto Mystery",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "description": "Агрегатор криптобирж и криптообменников. Виртуальный мультикошелек.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
